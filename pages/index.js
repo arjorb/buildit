@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 
-export default function Home() {
+const Home = () => {
   return (
     <div className=''>
       <Head>
@@ -15,9 +15,11 @@ export default function Home() {
 
       <main className=''>
         <h1 className='text-3xl text-[#039297] font-bold underline'>
-          Welcome to <a href='https://nextjs.org'>Build It!</a>
+          Welcome to <a href='#'>Build It!</a>
         </h1>
       </main>
     </div>
-  );
-}
+  )
+};
+
+export default Home;
