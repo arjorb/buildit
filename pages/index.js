@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Showcase from '../components/showcase/Showcase';
 
 const Home = () => {
   return (
@@ -14,12 +15,10 @@ const Home = () => {
       </Head>
 
       <main className=''>
-        <h1 className='text-3xl text-[#039297] font-bold underline'>
-          Welcome to <a href='#'>Build It!</a>
-        </h1>
+        <Showcase />
       </main>
     </div>
-  )
+  );
 };
 
 export default Home;
