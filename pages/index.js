@@ -5,6 +5,7 @@ import Execution from '../components/home/Execution';
 import About from '../components/home/About';
 import Properties from '../components/home/Properties';
 import Gallery from '../components/home/Gallery';
+import Contact from '../components/home/Contact';
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
         <About />
         <Properties />
         <Gallery />
+        <Contact />
       </main>
     </div>
   );
