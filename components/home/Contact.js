@@ -61,7 +61,7 @@ const Contact = () => {
                 id=''
                 cols='30'
                 rows='6'
-                className='w-full bg-transparent border  border-black outline-none rounded-sm'
+                className='w-full bg-transparent border  border-black outline-none rounded-sm resize-none'
               ></textarea>
             </div>
 

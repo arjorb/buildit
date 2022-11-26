@@ -9,7 +9,7 @@ import hero5 from '../../public/hero5.png';
 const Showcase = () => {
   return (
     <>
-      <div className='h-100 bg-background-image  bg-cover bg-no-repeat  pt-12'>
+      <div className='h-100 bg-background-image  bg-cover bg-no-repeat'>
         <Navbar />
         {/* hero section  */}
         <div className='max-w-container  mx-auto px-4 flex justify-between gap-14 mt-16'>
