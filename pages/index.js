@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import Showcase from '../components/showcase/Showcase';
+import Showcase from '../components/home/Showcase';
+import Execution from '../components/home/Execution';
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
 
       <main className=''>
         <Showcase />
+        <Execution />
       </main>
     </div>
   );

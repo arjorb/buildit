@@ -30,8 +30,8 @@ const Showcase = () => {
               <Image src={hero3} width={130} alt='' />
             </div>
             <div className='flex items-start gap-7'>
-              <Image src={hero4} width={280} alt='' />
-              <Image src={hero5} alt='' />
+              <Image src={hero4} width={300} alt='' />
+              <Image src={hero5} width={170} alt='' />
             </div>
           </div>
         </div>
