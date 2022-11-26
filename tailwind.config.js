@@ -7,7 +7,7 @@ module.exports = {
         'background-image': 'url("../public/background.png")',
       },
       colors: {
-        steelBlue: { 100: '#4397A4', 200: '#486A6F' },
+        steelBlue: { 50: '#E1EBFA', 100: '#4397A4', 200: '#486A6F' },
       },
       height: {
         100: '105vh',

@@ -8,7 +8,7 @@ const Execution = () => {
   return (
     <>
       <div className='max-w-container mx-auto px-4 py-36'>
-        <h1 className='text-3xl  font-semibold text-center'>Innovative Execution</h1>
+        <h1 className='text-3xl text-steelBlue-200  font-semibold text-center'>Innovative Execution</h1>
         <div className='flex justify-between gap-5 mt-20 px-16'>
           <Card
             icon={icon1}

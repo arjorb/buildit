@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Showcase from '../components/home/Showcase';
 import Execution from '../components/home/Execution';
+import About from '../components/home/About';
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <main className=''>
         <Showcase />
         <Execution />
+        <About />
       </main>
     </div>
   );
