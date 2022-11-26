@@ -11,7 +11,7 @@ const About = () => {
   return (
     <>
       <div className=' bg-steelBlue-50'>
-        <div className='max-w-container mx-auto px-4 py-20'>
+        <div className='max-w-container mx-auto px-4 py-28'>
           {/* Partner */}
 
           <div className='flex justify-between px-48 border-y py-7 border-steelBlue-100'>
@@ -25,8 +25,8 @@ const About = () => {
           {/* About us  */}
 
           <div className='flex gap-20 items-center px-5 mt-20'>
-            <div className='mt-5'>
-              <Image src={images} width={2500} height={500} alt='' />
+            <div className='mt-10'>
+              <Image src={images} width={2000} height={500} alt='' />
             </div>
             <div>
               <h3 className='text-md text-steelBlue-100'>About us</h3>

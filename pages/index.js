@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Showcase from '../components/home/Showcase';
 import Execution from '../components/home/Execution';
 import About from '../components/home/About';
+import Properties from '../components/home/Properties';
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
         <Showcase />
         <Execution />
         <About />
+        <Properties />
       </main>
     </div>
   );
