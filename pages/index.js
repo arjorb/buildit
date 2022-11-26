@@ -4,6 +4,7 @@ import Showcase from '../components/home/Showcase';
 import Execution from '../components/home/Execution';
 import About from '../components/home/About';
 import Properties from '../components/home/Properties';
+import Gallery from '../components/home/Gallery';
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
         <Execution />
         <About />
         <Properties />
+        <Gallery />
       </main>
     </div>
   );
