@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Button from './Button';
+import { Button } from './Button';
 const Navbar = () => {
   return (
     <>
@@ -16,7 +16,7 @@ const Navbar = () => {
           <Link href='/'>Contact</Link>
         </div>
         <div>
-          <Button name={'Need a project?'} />
+          <Button name={'Need a project?'} width={5} height={2} />
         </div>
       </div>
     </>

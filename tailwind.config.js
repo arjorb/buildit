@@ -10,10 +10,10 @@ module.exports = {
         steelBlue: { 100: '#4397A4', 200: '#486A6F' },
       },
       height: {
-        100: '100vh',
+        100: '105vh',
       },
       maxWidth: {
-        container: '1024px',
+        container: '1080px',
       },
 
       borderRadius: {
