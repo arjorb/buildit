@@ -14,7 +14,7 @@ const Statistics = () => {
           <div className='flex gap-7'>
             <Image src={stats1} width={60} alt='' />
             <div className='text-steelBlue-200'>
-              <h3 className='text-4xl font-bold'> 200</h3>
+              <h3 className='text-4xl font-bold'> 200 +</h3>
               <p className='font-bold opacity-70'>Number </p>
             </div>
           </div>
@@ -22,7 +22,7 @@ const Statistics = () => {
           <div className='flex gap-7 border-x-2 px-20 border-x-steelBlue-200 border-opacity-60'>
             <Image src={stats2} width={60} alt='' />
             <div className='text-steelBlue-200'>
-              <h3 className='text-4xl font-bold'> 200</h3>
+              <h3 className='text-4xl font-bold'> 70 +</h3>
               <p className='font-bold opacity-70'>Number </p>
             </div>
           </div>
@@ -30,7 +30,7 @@ const Statistics = () => {
           <div className='flex gap-7 '>
             <Image src={stats3} width={60} alt='' />
             <div className='text-steelBlue-200'>
-              <h3 className='text-4xl font-bold'> 200</h3>
+              <h3 className='text-4xl font-bold'> 20 +</h3>
               <p className='font-bold opacity-70'>Number </p>
             </div>
           </div>
