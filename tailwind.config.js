@@ -9,6 +9,9 @@ module.exports = {
       colors: {
         steelBlue: { 50: '#E1EBFA', 100: '#4397A4', 200: '#486A6F' },
       },
+      width: {
+        45: '45%',
+      },
       height: {
         100: '105vh',
       },

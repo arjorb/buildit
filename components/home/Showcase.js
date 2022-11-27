@@ -13,7 +13,7 @@ const Showcase = () => {
         <Navbar />
         {/* hero section  */}
         <div className='max-w-container  mx-auto px-4 flex justify-between gap-14 mt-16'>
-          <div className=' w-[45%] mt-20'>
+          <div className='w-45 mt-20'>
             <h2 className='text-6xl font-bold text-steelBlue-200 leading-tight'>Development company</h2>
             <p className='text-xl my-5 text-steelBlue-200 font-light tracking-wider'>
               Forward-thinking real estate developer, owner and investor with a reputation
