@@ -15,7 +15,7 @@ const Statistics = () => {
             <Image src={stats1} width={60} alt='' />
             <div className='text-steelBlue-200'>
               <h3 className='text-4xl font-bold'> 200 +</h3>
-              <p className='font-bold opacity-70'>Number </p>
+              <p className='font-bold opacity-70'>Number</p>
             </div>
           </div>
 
