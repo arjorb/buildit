@@ -26,8 +26,8 @@ const Footer = () => {
                 <Link href='/'>Services 4</Link>
               </div>
               <div className='flex gap-3'>
-                <Image className=' cursor-pointer' src={instgram} width={30} height={30} />
-                <Image className=' cursor-pointer' src={facebook} width={30} height={30} />
+                <Image className=' cursor-pointer' src={instgram} width={30} height={30} alt='' />
+                <Image className=' cursor-pointer' src={facebook} width={30} height={30} alt='' />
               </div>
             </div>
             <div className='flex flex-col space-y-3'>
