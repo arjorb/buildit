@@ -19,7 +19,7 @@ const NotFound = () => {
         <div className='max-w-container  mx-auto px-4 mt-16'>
           <h1 className='text-4xl font-bold text-steelBlue-200'>Not Found</h1>
           <p className='text-lg text-steelBlue-200 mt-10 font-semibold'>
-            Page Does't Exist |
+            Page Does not Exist |
             <span className='ml-3 underline text-steelBlue-100'>
               <Link href='/'>Buildit</Link>
             </span>

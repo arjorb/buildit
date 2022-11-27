@@ -17,7 +17,7 @@ const Team = () => {
       <div className=' bg-steelBlue-50'>
         <div className='max-w-container mx-auto px-4 py-28'>
           <h3 className='text-md text-steelBlue-100 text-center'>Our team</h3>
-          <h1 className='text-4xl font-semibold text-steelBlue-200 mt-5 text-center'>Let's meet</h1>
+          <h1 className='text-4xl font-semibold text-steelBlue-200 mt-5 text-center'>Lets meet</h1>
 
           <div className='max-w-full mx-auto grid grid-cols-3 gap-10 mt-10 px-5'>
             <Card image={Team1} />
