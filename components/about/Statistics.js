@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import stats1 from '../../public/stats-1.png';
 import stats2 from '../../public/stats-2.png';
-import stats3 from '../../public/stats-3.png';
+import stats4 from '../../public/stats-4.png';
 import Partner from '../shared/Partner';
 
 const Statistics = () => {
@@ -28,7 +28,7 @@ const Statistics = () => {
           </div>
 
           <div className='flex gap-7 '>
-            <Image src={stats3} width={60} alt='' />
+            <Image src={stats4} width={60} alt='' />
             <div className='text-steelBlue-200'>
               <h3 className='text-4xl font-bold'> 20 +</h3>
               <p className='font-bold opacity-70'>Number </p>
