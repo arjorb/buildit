@@ -16,6 +16,7 @@ module.exports = {
         100: '105vh',
       },
       maxWidth: {
+        full: '980px',
         container: '1080px',
       },
 

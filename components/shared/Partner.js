@@ -12,7 +12,7 @@ const Partner = () => {
         <Image src={vector} width={50} alt='' />
         <Image src={vector1} width={50} alt='' />
         <Image src={vector2} width={180} alt='' />
-        <Image src={vector3} width={70} alt='' />
+        <Image src={vector3} width={90} alt='' />
         <Image src={vector4} width={80} alt='' />
       </div>
     </>

@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Hero from '../components/about/Hero';
+import Statistics from '../components/about/Statistics';
 
 const About = () => {
   return (
@@ -13,6 +14,7 @@ const About = () => {
         />
       </Head>
       <Hero />
+      <Statistics />
     </>
   );
 };
