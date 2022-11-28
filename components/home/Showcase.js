@@ -15,8 +15,8 @@ const Showcase = () => {
         <div className='max-w-container  mx-auto px-4 flex justify-between gap-14 mt-16'>
           <div className='w-45 mt-20'>
             <h2 className='text-6xl font-bold text-steelBlue-200 leading-tight'>Development company</h2>
-            <p className='text-xl my-5 text-steelBlue-200 font-light tracking-wider'>
-              Forward-thinking real estate developer, owner and investor with a reputation
+            <p className='text-lg my-5 text-steelBlue-200 text-opacity-70 font-light tracking-wider'>
+              Forward-thinking real estate developer, owner <br /> and investor with a reputation
             </p>
             <div className='flex gap-5 mt-16'>
               <BigButton name={'Services'} color={'steelBlue-100'} text='white' />
