@@ -18,7 +18,7 @@ const Navbar = () => {
           <Link href='/contact'>Contact</Link>
         </div>
         <div>
-          <Button name={'Need a project?'} width={5} height={2} />
+          <Button name={'Need a project?'} width={5} height={2} color={'steelBlue-100'} text='white' />
         </div>
       </div>
     </>

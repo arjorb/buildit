@@ -26,7 +26,7 @@ const About = () => {
                 enim magna eu orci. Sed semper ex quis semper aliquet. Cras hendrerit molestie sapien sed fermentum.
                 Mauris dui tortor, viverra vel ultrices in, congue sed ex.
               </p>
-              <Button name='Explore' />
+              <Button name='Explore' width={16} color='steelBlue-100' height={3} text='white' className=' w-28' />
             </div>
           </div>
         </div>

@@ -8,7 +8,7 @@ import Team6 from '../../public/Team-6.png';
 import Team7 from '../../public/Team-7.png';
 import Team8 from '../../public/Team-8.png';
 import Team9 from '../../public/Team-9.png';
-import { Button } from '../shared/Button';
+import { CallButton } from '../shared/Button';
 
 import Card from './Card';
 const Team = () => {
@@ -34,8 +34,8 @@ const Team = () => {
           <div className='flex justify-between items-center border-y py-7 border-steelBlue-100 mt-16'>
             <h1 className='text-4xl font-semibold text-steelBlue-200 mt-5'>Call</h1>
             <div className='flex gap-5'>
-              <Button name='Call' />
-              <Button name='Email' />
+              <CallButton name='Call' color='steelBlue-100' text='white' />
+              <CallButton name='Email' color='steelBlue-20' text='steelBlue-100' />
             </div>
           </div>
         </div>

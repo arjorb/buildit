@@ -1,5 +1,5 @@
 import Navbar from '../shared/Navbar';
-import { BigButton } from '../shared/Button';
+import { Button } from '../shared/Button';
 import Image from 'next/image';
 import hero1 from '../../public/hero1.png';
 import hero2 from '../../public/hero2.png';
@@ -19,8 +19,8 @@ const Showcase = () => {
               Forward-thinking real estate developer, owner and investor with a reputation
             </p>
             <div className='flex gap-5 mt-5'>
-              <BigButton name={'Servicees'} />
-              <BigButton name={'About the company'} />
+              <Button name={'Services'} width={16} height={`5`} color={'steelBlue-100'} text='white' />
+              <Button name={'About the company'} width={16} height={`5`} color={'steelBlue-50'} text='steelBlue-200' />
             </div>
           </div>
           <div className='flex flex-col gap-10'>
