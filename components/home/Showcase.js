@@ -18,7 +18,7 @@ const Showcase = () => {
             <p className='text-xl my-5 text-steelBlue-200 font-light tracking-wider'>
               Forward-thinking real estate developer, owner and investor with a reputation
             </p>
-            <div className='flex gap-5 mt-5'>
+            <div className='flex gap-5 mt-16'>
               <BigButton name={'Services'} color={'steelBlue-100'} text='white' />
               <BigButton name={'About the company'} color={'steelBlue-50'} text='steelBlue-200' />
             </div>
