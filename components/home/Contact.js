@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import contact1 from '../../public/Contact-1.png';
 import contact2 from '../../public/Contact-2.png';
-import { BigButton } from '../shared/Button';
+import { FormButton } from '../shared/Button';
 const Contact = () => {
   return (
     <>
@@ -75,7 +75,7 @@ const Contact = () => {
             </div>
 
             <div>
-              <BigButton name='Send message' />
+              <FormButton name='Send message' />
             </div>
           </div>
         </div>
