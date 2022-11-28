@@ -33,9 +33,7 @@ export const FormButton = ({ name }) => {
 export const CallButton = ({ name, color, text }) => {
   return (
     <>
-      <div
-        className={` bg-steelBlue-100  text-center px-10 py-3 rounded-3 text-sm text-white font-medium cursor-pointer`}
-      >
+      <div className={` bg-${color} text-center px-10 py-3 rounded-sm text-sm text-${text} font-medium cursor-pointer`}>
         {name}
       </div>
     </>

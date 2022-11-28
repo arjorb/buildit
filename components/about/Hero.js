@@ -12,8 +12,8 @@ const Hero = () => {
         <div className='max-w-container  mx-auto px-4 md:px-16 flex  gap-40 mt-16'>
           <div className='flex flex-col gap-10'>
             <div className='relative'>
-              <Image src={hero1} width={280} alt='' />
-              <Image className='absolute top-40 left-40' src={hero2} width={200} alt='' />
+              <Image src={hero1} width={310} alt='' />
+              <Image className='absolute top-40 left-40' src={hero2} width={240} alt='' />
             </div>
           </div>
 

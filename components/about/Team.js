@@ -35,7 +35,7 @@ const Team = () => {
             <h1 className='text-4xl font-semibold text-steelBlue-200 mt-5'>Call</h1>
             <div className='flex gap-5'>
               <CallButton name='Call' color='steelBlue-100' text='white' />
-              <CallButton name='Email' color='steelBlue-20' text='steelBlue-100' />
+              <CallButton name='Email' color='steelBlue-100' text='white' />
             </div>
           </div>
         </div>
